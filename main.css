@@ -1,1 +1,13 @@
-h hdnfcf fh
+.navbar-nav{
+	background-color: #C0C0C0;
+	padding : 10;
+	width: 400em;
+	color: #000000;
+}
+.dropdown-menu{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #C0C0C0;
+}
+
