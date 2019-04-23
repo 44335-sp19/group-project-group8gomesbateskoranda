@@ -11,3 +11,13 @@
   background-color: #C0C0C0;
 }
 
+#home{
+	color:#000000;
+}
+#contact{
+	color:#000000;
+}
+
+nav:hover{
+	color:aqua;
+}
