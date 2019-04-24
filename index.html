@@ -17,7 +17,7 @@
 <nav class="navbar navbar-expand-sm bg-light">
   <ul class="navbar-nav">
     	<li class="nav-item">
-      	<a id="home" class="nav-link text-center" href="index.html">Home</a>
+			<a id="home" class="nav-link text-center" href="index.html">Home</a>
 		</li>
     <li class="nav-item dropdown">
     <a id="portfolio" class="nav-link dropdown-toggle" data-toggle="dropdown">Portfolio</a>
@@ -200,16 +200,28 @@ $("#profile3").mouseover(function()
 
 $("#profile3").mouseout(function()
 {this.src="https://media.gettyimages.com/photos/be-yourself-and-your-confidence-will-shine-through-picture-id610678308?s=612x612";});
-});
 	
-	$("nav").hover(function(){
-    $(this).css("background-color", "yellow");
-    }, function(){
-    $(this).css("background-color", "pink");
-  });
+$("#home").mouseover(function(){
+	$("#home").css("background-color", "#C0C0C0");
 });
-                
+   $("#home").mouseout(function(){
+    $("#home").css("background-color", "#FFFFFF");
+  });              
 
+	$("#contact").mouseover(function(){
+	$("#contact").css("background-color", "#C0C0C0");
+});
+   $("#contact").mouseout(function(){
+    $("#contact").css("background-color", "#FFFFFF");
+  });
+	
+$("#profile").mouseover(function(){
+	$("#profile").css("background-color", "#C0C0C0");
+});
+   $("#profile").mouseout(function(){
+    $("#profile").css("background-color", "#FFFFFF");
+  });              
+});
     
     </script>
 
