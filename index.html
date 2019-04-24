@@ -12,6 +12,9 @@
       
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="main.css">
+ <style>
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+</style> 
   </head>
     <body>
 <nav class="navbar navbar-expand-sm bg-light">
@@ -22,9 +25,9 @@
     <li class="nav-item dropdown">
     <a id="portfolio" class="nav-link dropdown-toggle" data-toggle="dropdown">Portfolio</a>
     <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Rileigh Bates</a>
-      <a class="dropdown-item" href="#">Gloria Gomes</a>
-      <a class="dropdown-item" href="#">Kaelee Koranda</a>
+      <a class="dropdown-item" href="bates.html">Rileigh Bates</a>
+      <a class="dropdown-item" href="gomes.html">Gloria Gomes</a>
+      <a class="dropdown-item" href="koranda.html">Kaelee Koranda</a>
     </div>
   </li>
     <li class="nav-item">
@@ -41,9 +44,9 @@
     <br>
     <div class="container">
     <div class="row">
-    <img src="https://media.gettyimages.com/photos/be-yourself-and-your-confidence-will-shine-through-picture-id610678308?s=612x612" alt="Rileigh Bates" class="col-sm-4" id="profile1" img>
-    <img src="https://media.gettyimages.com/photos/be-yourself-and-your-confidence-will-shine-through-picture-id610678308?s=612x612" alt="Gloria Gomes" class="col-sm-4" id="profile2" img>
-    <img src="https://media.gettyimages.com/photos/be-yourself-and-your-confidence-will-shine-through-picture-id610678308?s=612x612" alt="Kaelee Koranda" class="col-sm-4" id="profile3" img>
+    <img src="images/bates.JPG" alt="Rileigh Bates" class="col-sm-4" id="profile1" img>
+    <img src="images/Gomes.jpg" alt="Gloria Gomes" class="col-sm-4" id="profile2" img>
+    <img src="images/bates.jpg" alt="Kaelee Koranda" class="col-sm-4" id="profile3" img>
     </div>
         </div>
         </div>
@@ -66,7 +69,11 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-4 text-center">
-    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum hfjahfjkawhfoiafnioaw."</p>
+    <p>Hello! My name is Rileigh Bates and I am currently 
+studying Interactive Digital Media: New Media at Northwest Missouri State University.
+I am interested in a variety of subjects, including graphic design, web design, 
+photography, UX and advertising. I’ve wanted to pursue design as a career since high school  when I joined yearbook staff as a designer. I enjoy the problem solving that goes into making a good design, along with the creative aspect. As I’ve progressed through college, I’ve learned that I also have a passion for user experience design and advertising. Outside of classes, I like to spend time with friends and family (including my two dogs) and dabble in photography.
+</p>
         </div>
 
         <div class="col-sm-4 text-center">
@@ -93,7 +100,8 @@
         <div class="col-md-3 mt-md-0 mt-3">
 
           <!-- Content -->
-          <h5 class="text-uppercase">Footer Content</h5>
+          <h5 class="text-uppercase">Group 8 Portfolio</h5>
+            <p>Created by Rileigh Bates, Gloria Gomes and Kaelee Koranda</p>
 
         </div>
         <!-- Grid column -->
@@ -180,26 +188,27 @@
   </footer>
   <!-- Footer -->
 
+    </body>
 <script>
 $(document).ready(function(){
 
 $("#profile1").mouseover(function()
-{this.src="https://static.scientificamerican.com/sciam/cache/file/D059BC4A-CCF3-4495-849ABBAFAED10456_source.jpg?w=590&h=800&526ED1E1-34FF-4472-B348B8B4769AB2A1";});
+{this.src="images/batesoverlay.jpg";});
 
 $("#profile1").mouseout(function()
-{this.src="https://media.gettyimages.com/photos/be-yourself-and-your-confidence-will-shine-through-picture-id610678308?s=612x612";});
+{this.src="images/bates.jpg";});
 
 $("#profile2").mouseover(function()
-{this.src="https://static.scientificamerican.com/sciam/cache/file/D059BC4A-CCF3-4495-849ABBAFAED10456_source.jpg?w=590&h=800&526ED1E1-34FF-4472-B348B8B4769AB2A1";});
+{this.src="images/gomesoverlay.jpg";});
 
 $("#profile2").mouseout(function()
-{this.src="https://media.gettyimages.com/photos/be-yourself-and-your-confidence-will-shine-through-picture-id610678308?s=612x612";});
+{this.src="images/gomes.jpg";});
 
 $("#profile3").mouseover(function()
 {this.src="https://static.scientificamerican.com/sciam/cache/file/D059BC4A-CCF3-4495-849ABBAFAED10456_source.jpg?w=590&h=800&526ED1E1-34FF-4472-B348B8B4769AB2A1";});
 
 $("#profile3").mouseout(function()
-{this.src="https://media.gettyimages.com/photos/be-yourself-and-your-confidence-will-shine-through-picture-id610678308?s=612x612";});
+{this.src="images/bates.jpg";});
 	
 $("#home").mouseover(function(){
 	$("#home").css("background-color", "#C0C0C0");
@@ -224,8 +233,5 @@ $("#profile").mouseover(function(){
 });
     
     </script>
-
-
-</body>
     
 </html>
