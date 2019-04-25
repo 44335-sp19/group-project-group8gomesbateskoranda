@@ -15,10 +15,10 @@
 <nav class="navbar navbar-expand-sm bg-light">
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link text-center" href="index.html">Home</a>
+      <a id="home" class="nav-link text-center" href="index.html">Home</a>
     </li>
     <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown">Portfolio</a>
+    <a id="portfolio" class="nav-link dropdown-toggle" data-toggle="dropdown">Portfolio</a>
     <div class="dropdown-menu">
       <a class="dropdown-item" href="bates.html">Rileigh Bates</a>
       <a class="dropdown-item" href="gomes.html">Gloria Gomes</a>
@@ -73,7 +73,7 @@
              
         
 <!-- Footer -->
-<footer class="page-footer font-small stylish-color-dark pt-4">
+<footer id="foot" class="page-footer font-small stylish-color-dark pt-4">
 
     <!-- Footer Links -->
     <div class="container-fluid text-center text-md-left">
@@ -176,5 +176,27 @@
 
 
 </body>
+    <script>
+    $("#home").mouseover(function(){
+	$("#home").css("background-color", "#FFFFFF");
+});
+   $("#home").mouseout(function(){
+    $("#home").css("background-color", "#C0C0C0");
+  });              
+
+	$("#contact").mouseover(function(){
+	$("#contact").css("background-color", "#FFFFFF");
+});
+   $("#contact").mouseout(function(){
+    $("#contact").css("background-color", "#C0C0C0");
+  });
+	
+$("#portfolio").mouseover(function(){
+	$("#portfolio").css("background-color", "#FFFFFF");
+});
+   $("#portfolio").mouseout(function(){
+    $("#portfolio").css("background-color", "#C0C0C0");
+  }); 
+    </script>
     
 </html>

@@ -21,3 +21,8 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
+
+#foot {
+    background-color: #C0C0C0;
+    width: 100%;
+}
